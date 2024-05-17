@@ -1,0 +1,10 @@
+<p>search-page works!</p>
+<div class="text-center mt-5">
+  <h1>Company Search</h1>
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <input type="text" class="form-control" [(ngModel)]="searchQuery" name="query" placeholder="Company Name or Number" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+  </form>
+</div>

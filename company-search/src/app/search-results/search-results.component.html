@@ -1,0 +1,12 @@
+<div class="mt-5">
+  <h2>Search Results</h2>
+  <div *ngFor="let company of companies" class="card mb-3">
+    <div class="card-body">
+      <h5 class="card-title">
+        <a [routerLink]="['/company', company.number]">{{ company.name }}</a>
+      </h5>
+      <p class="card-text">Incorporated on: {{ company.incorporationDate }}</p>
+      <p class="card-text">Address: {{ company.address }}</p>
+    </div>
+  </div>
+</div>
