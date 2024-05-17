@@ -8,7 +8,7 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class CompanyDetailComponent implements OnInit {
 
-  company = {
+company = {
     name: 'BBC LIMITED',
     number: '06500244',
     address: 'Boswell Cottage Main Street, North Leverton, Retford, England, DN22 0AD',
