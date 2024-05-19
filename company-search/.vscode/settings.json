@@ -1,0 +1,9 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#291B7B",
+        "titleBar.activeBackground": "#3926AC",
+        "titleBar.activeForeground": "#FBFBFE"
+    },
+    "CodeGPT.Autocomplete.enabled": true,
+    "CodeGPT.apiKey": "CodeGPT Plus Beta"
+}
