@@ -1,9 +1,0 @@
-<div class="mt-5">
-  <h2>{{ company.name }}</h2>
-  <p>Company number: {{ company.number }}</p>
-  <p>Registered office address: {{ company.address }}</p>
-  <p>Company status: {{ company.status }}</p>
-  <p>Company type: {{ company.type }}</p>
-  <p>Incorporated on: {{ company.incorporationDate }}</p>
-  <a [routerLink]="['/company', company.number, 'officers']">List Officers</a>
-</div>

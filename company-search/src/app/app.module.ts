@@ -3,11 +3,12 @@ import { BrowserModule, provideClientHydration } from '@angular/platform-browser
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SearchPageComponent } from './search-page/search-page.component';
-import { SearchResultsComponent } from './search-results/search-results.component';
-import { CompanyDetailComponent } from './company-detail/company-detail.component';
-import { OfficersListComponent } from './officers-list/officers-list.component';
+import { SearchPageComponent } from './components/search-page/search-page.component';
+import { SearchResultsComponent } from './components/search-results/search-results.component';
+import { CompanyDetailComponent } from './components/company-detail/company-detail.component';
+import { OfficersListComponent } from './components/officers-list/officers-list.component';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [
     provideClientHydration()
